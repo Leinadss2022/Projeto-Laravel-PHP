@@ -4,7 +4,7 @@
 
 @section('content')
 
-<h1>HDC Events</h1>
+
 <img src="/img/banner.jpg" alt ="Banner">
 
 @endsection
