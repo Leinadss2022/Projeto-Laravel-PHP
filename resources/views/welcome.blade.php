@@ -5,6 +5,6 @@
 @section('content')
 
 
-<img src="/img/banner.jpg" alt ="Banner">
+<img src="/img/banner.jpg" alt ="Banner" height="1080px">
 
 @endsection
