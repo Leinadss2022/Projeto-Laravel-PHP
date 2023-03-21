@@ -4,7 +4,10 @@
 
 @section('content')
 
+@foreach($events as $event)
 
-<img src="/img/banner.jpg" alt ="Banner" height="1080px">
+         <p>{{ $event->title}} -- {{ $event->description}}</p>
+
+@endforeach
 
 @endsection

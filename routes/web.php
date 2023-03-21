@@ -9,17 +9,11 @@ Route::get('/events/create', [EventController::class, 'create']);
 
 
 
-Route::get('/produtos', function () {
-    return view('produtos');
+
+Route::get('/contact', function () {
+    return view('contact');
 });
 
-Route::get('/contato', function () {
-    return view('contato');
-});
-
-Route::get('/eventos', function () {
-    return view('eventos');
-});
 
 
 ?>
